@@ -11,6 +11,10 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
   img, picture, video, canvas, svg {
     display: block;
@@ -25,3 +29,5 @@
   #root, #__next {
     isolation: isolate;
   }
+
+
