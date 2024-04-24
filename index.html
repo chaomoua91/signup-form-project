@@ -64,19 +64,20 @@
                 <div class="phone">
                     <input
                     required
-                    type="text"
+                    type="tel"
                     class="form-input"
                     id="phone"
                     placeholder="Phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     />
-                    <label for="phone" class="form-label">Phone:</label>
+                    <label for="phone" class="form-label">Phone: 123-456-7890</label>
                 </div>   
             </div>
             <div class="inputs">
                 <div class="password">
                   <input
                     required
-                    type="text"
+                    type="password"
                     class="form-input"
                     id="password"
                     placeholder="Password"
@@ -86,7 +87,7 @@
                 <div class="confirm-password">
                     <input
                     required
-                    type="text"
+                    type="password"
                     class="form-input"
                     id="confirm-password"
                     placeholder="Confirm Password"
